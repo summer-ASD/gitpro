@@ -43,6 +43,10 @@ public class SplashActivity extends RxActivity {
     }
 
 
+
+
+
+
     private void finishTask() {
         boolean isLogin = PreferenceUtil.getBoolean(ConstantUtil.KEY, false);
         if (isLogin) {
