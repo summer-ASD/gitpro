@@ -34,7 +34,7 @@ public class SplashActivity extends RxActivity {
         setUpSplash();
     }
 
-
+//有没有合并代码
     private void setUpSplash() {
         Observable.timer(2000, TimeUnit.MILLISECONDS)
                 .compose(bindToLifecycle())
